@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanisree S.J | Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8rem;
+      padding: 2rem;
+    }
+
+    header img {
+      width: 250px;
+      height: 350px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 5px solid #1abc9c;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+
+    .nav-sidebar a {
+      font-size: 1.3rem;
+      padding: 1.2rem 2.5rem;
+      background-color: #34495e;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+      min-width: 250px;
+      text-align: center;
+    }
+
+    .nav-sidebar a:hover {
+      background-color: #1abc9c;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 3rem;
+      margin: 2rem auto;
+      max-width: 1000px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      display: none;
+    }
+
+    section:target {
+      display: block;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+
+    ul {
+      list-style-type: square;
+      line-height: 2;
+      padding-left: 1rem;
+    }
+
+    .project {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-bottom: 3rem;
+      align-items: center;
+    }
+
+    .project img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .project-content {
+      flex: 1;
+      min-width: 250px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Landing Page -->
+  <header>
+    <img src="C:\Users\vanis\Downloads\vanis logo.jpg" alt="Vanisree SJ" />
+    <div class="nav-sidebar">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- Content Sections -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Vanisree, a responsible and motivated student with a strong desire to apply my academic knowledge in real-world environments. I possess excellent technical abilities in programming and software tools, along with effective time management skills. I am capable of handling multiple tasks efficiently while maintaining quality and consistency. My passion for continuous learning drives me to stay updated with the latest technologies and improve my skill set. I am enthusiastic about taking on new challenges and contributing meaningfully to any team or organization. With a focused mindset and a commitment to growth, I strive to deliver my best in every opportunity I undertake.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming: C, Python, Java</li>
+      <li>Web: HTML, CSS, JavaScript, PHP</li>
+      <li>Tools: UiPath, MongoDB, Git</li>
+      <li>Soft Skills: Time Management, Planning, Adaptability, Self-Driven</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <img src="C:\xampp\htdocs\php-practice\food logo.png"alt="Online Food Project" />
+      <div class="project-content">
+        <h3>Online Shopping for Food</h3>
+        <ul>
+          <li>Developed a website using HTML, CSS, JS, and PHP.</li>
+          <li>Features include login, cart, food management, and ordering system.</li>
+          <li>Inventory tracking and order history functionalities integrated.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="C:\xampp\htdocs\php-practice\Online Course Reg logo.png" alt="Course Automation Project" />
+      <div class="project-content">
+        <h3>Course Enrollment Automation</h3>
+        <ul>
+          <li>Automated course registration process using UiPath Studio.</li>
+          <li>Automatically fills forms, checks eligibility, and sends confirmation emails.</li>
+          <li>Improves accuracy and saves time for students and administrators.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="C:\xampp\htdocs\php-practice\elevator logo.avif" alt="Elevator Project" />
+      <div class="project-content">
+        <h3>Elevator Maintenance Predictor</h3>
+        <ul>
+          <li>ML-based model to predict when elevators need servicing.</li>
+          <li>Reduces maintenance cost and improves safety.</li>
+          <li>Trained on historical data to predict faults in advance.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>NPTEL – Internet Of Things (80%)</li>
+      <li>NPTEL – Joy of Computing Using Python (70%)</li>
+      <li>UiPath Skillathon Certification</li>
+      <li>MongoDB Certification</li>
+      <li>JavaScript Certification – LinkedIn Learning</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Secured First Rank in 12th Board Examinations</li>
+      <li>Top 80 out of 1000+ teams in Smart India Hackathon 2024</li>
+      <li>First Place in Article Writing – Women’s Day Celebration</li>
+      <li>Participant in UI/UX Design Contest – CSE Symposium</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> vanisree200431@gmail.com</p>
+    <p><strong>Phone:</strong> +91 8111003172</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vanisree-sj" target="_blank">linkedin.com/in/vanisree-sj</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/VANISREE3110.git" target="_blank">github.com/VANISREE3110</a></p>
+  </section>
+
+</body>
+</html>
